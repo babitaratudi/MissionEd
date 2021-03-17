@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MissionEd</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 25%;
+      padding:1%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
+</head>
+<body>
+      <div class="wrapper">
+        <div class="sidebar">
+          <h2>MissionEd</h2>
+          <ul>
+            <li><a href="/" >Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contest.html">Contest</a></li>
+          </ul>
+        </div>
+      
+      </div>
+    
+      <div class="main_content">
+        <div class="header"><h2>Student Progress</h2></div>
+        <div class="info">
+          <div class="container">
+            <h3>Coins earned by student in each subject</h3>
+          </div>
+
+          
+          <div class="row">
+
+            <div class="column" style="background-color:white;">
+              <img src="./images/phy.jpg" alt="1" width="300" height="275" >
+              <h3>Physics</h3>
+              <h2><span class="counter">400</span> <span class="Coins"></span> Coins</h2>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">20% completed</div>
+              </div>
+            </div>
+
+            <div class="column" style="background-color:white;">
+              <img src="./images/math.jpg" alt="1" width="300" height="275" >
+              <h3>Mathematics</h3>
+              <h2><span class="counter">500</span> <span class="Coins"></span> Coins</h2>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">20% completed</div>
+              </div>
+            </div>
+
+            <div class="column" style="background-color:white;">
+              <img src="./images/chem.jpg" alt="1" width="300" height="275" >
+              <h3>Chemistry</h3>
+              <h2><span class="counter">400</span> <span class="Coins"></span> Coins</h2>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">20% completed</div>
+              </div>
+            </div>
+
+            <div class="column" style="background-color:white;">
+              <img src="./images/bio.jpg" alt="1" width="290" height="275" >
+              <h3>Biology</h3>
+              <h2><span class="counter">300</span> <span class="Coins"></span> Coins</h2>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">20% completed</div>
+              </div>
+
+            </div>
+          </div>
+          
+          </div>
+
+        </div>
+  
+  
+</body>
+</html>
+<h3>Physics</h3>
+
+<h2><span class="counter">500</span> <span class="Coins"></span> Coins</h2>
+<div class="progress">
+  <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>

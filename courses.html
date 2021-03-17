@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row {
+      display: flex;
+    }
+    
+    /* Create two equal columns that sits next to each other */
+    .column {
+      flex: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    .main_content .box{
+      padding: 5%;
+    }
+    .btn btn-outline-dark btn-lg{
+      color: black ;
+      font-weight: 500;
+    }
+    
+    </style>
+</head>
+<body>
+      <div class="wrapper">
+        <div class="sidebar">
+          <h2>MissionEd</h2>
+          <ul>
+            <li><a href="/" >Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contest.html">Contest</a></li>
+          </ul>
+        </div>
+      
+    
+      <div class="main_content">
+        <div class="header"><h2>Missions</h2></div>
+        <div class="info">
+        
+            <div class="row">
+              <div class="column" style="background-color:white;" >
+                <img src="./images/5.jpeg" alt="1" width="310" height="275" >
+                <a class="btn btn-outline-dark btn-lg" href="#" role="button" style="font-size: xx-large;">Chemistry</a>
+                
+              </div>
+
+              <div class="column" style="background-color:white;">
+                <img src="./images/6.jpeg" alt="1" width="310" height="275">
+                <a class="btn btn-outline-dark btn-lg" href="#" role="button" style="font-size: xx-large;">Physics</a>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="column" style="background-color:white;">
+                <img src="./images/7.jpeg" alt="1" width="310" height="275">
+                <a class="btn btn-outline-dark btn-lg" href="#" role="button" style="font-size: xx-large;">Mathematics</a>
+              </div>
+
+              <div class="column" style="background-color:white;">
+                <img src="./images/10.jfif" alt="1" width="310" height="275">
+                <a class="btn btn-outline-dark btn-lg" href="#" role="button" style="font-size: xx-large;">Biology</a>
+              </div>
+            </div>
+
+        </div>
+      </div>
+      </div>
+  
+</body>
+</html>
