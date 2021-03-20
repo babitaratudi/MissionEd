@@ -6,6 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contest</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 250px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .center-block{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+  td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+  
+    
+  </style>
 </head>
 <body>
       <div class="wrapper">
@@ -15,15 +47,73 @@
             <li><a href="/" >Home</a></li>
             <li><a href="courses.html">Courses</a></li>
             <li><a href="contest.html">Contest</a></li>
+            <li><a href="login.html">Logout</a></li>
           </ul>
         </div>
       
     
       <div class="main_content">
-        <div class="header"><h2>Competitions</h2></div>
+        <div class="header"><h2>Competition</h2></div>
         <div class="info">
-          <div></div>
-        </div>
+          <h2>Top 3 Ranked students</h2>
+
+          <div class="row ">
+            <div class="column">
+              <img src="images/designer.png" alt="" width="150" class="center-block" >
+              <br>
+              <h4 style="text-align: center;">1. Pooja Arakh</h4>
+              <h4 style="text-align: center;">10000 Coins</h4>
+            </div>
+            <div class="column">
+              <img src="images/designer.png" alt="" width="150" class="center-block">
+              <br>
+              <h4 style="text-align: center;">2. Shivam Pandey</h4>
+              <h4 style="text-align: center;">6000 Coins</h4>
+            </div>
+            <div class="column">
+              <img src="images/designer.png" alt="" width="150" class="center-block">
+              <br>
+              <h4 style="text-align: center;">3. Laxmi Sharma</h4>
+              <h4 style="text-align: center;">3000 Coins</h4>
+            </div>
+          </div>
+          <br>
+          <h2>Upcoming Contest of this month</h2>
+            <table>
+              <tr>
+                <th style="width: 20%;">Subject</th>
+                <th style="width: 30%;">Starts</th>
+                <th style="width: 30%;">Ends</th>
+                <th style="width: 20%;">Coins Requires</th>
+              </tr>
+              <tr>
+                <td style="width: 20%;">Physics</td>
+                <td style="width: 30%;">21 March 2021(00:00:00)</td>
+                <td style="width: 30%;">22 March 2021(00:00:00)</td>
+                <td style="width: 20%;">200 Coins</td>
+              </tr>
+              <tr>
+                <td style="width: 20%;">Chemistry</td>
+                <td style="width: 30%;">23 March 2021(00:00:00)</td>
+                <td style="width: 3%;">24 March 2021(00:00:00)</td>
+                <td style="width: 20%;">200 Coins</td>
+              </tr>
+              <tr>
+                <td style="width: 20%;">Mathematics</td>
+                <td style="width: 30%;">25 March 2021(00:00:00)</td>
+                <td style="width: 30%;">26 March 2021(00:00:00)</td>
+                <td style="width: 20%;">200 Coins</td>
+              </tr>
+              <tr>
+                <td style="width: 20%;">Biology</td>
+                <td style="width: 30%;">28 March 2021(00:00:00)</td>
+                <td style="width: 30%;">21 March 2021(00:00:00)</td>
+                <td style="width: 20%;">200 Coins</td>
+              </tr>
+            </Table>
+
+
+        
       </div>
       </div>
   
